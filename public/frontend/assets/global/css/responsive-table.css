@@ -1,0 +1,64 @@
+@media screen and (max-width: 640px) {
+    #mytable {
+        overflow-x: auto;
+        display: block;
+    }
+    table#mytable thead {
+        display: block;
+    }
+    table#mytable>tbody>tr>td {
+        display: block;
+        width: 80%;
+        padding-left: 0px;
+        margin-left: 10px;
+        text-align: left;
+    }
+    table#mytable>tbody>tr>td>label {
+        display: block;
+        width: 80%;
+        padding-left: 0px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    table#mytable th {
+        display: block;
+        text-align: left;
+        padding-left: 0px;
+    }
+    table#mytable tbody {
+        display: block;
+    }
+    table#mytable tr {
+        display: block;
+        padding-left: 0px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    #btn-reset {
+        margin-top: 10px;
+        float: left;
+        margin-left: 0px;
+    }
+    #row2 {
+        padding-left: 0px;
+    }
+    table#rapport_table>tbody>tr>td:last-child a {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    table#rapport_table>tbody>tr>td:last-child a {
+        margin-bottom: 5px;
+    }
+}
+
+#rapport_table tbody tr td:nth-child(7),
+td:nth-child(8),
+td:nth-child(9) {
+    text-align: center;
+}
+
+#rapport_table thead tr th {
+    color: #000;
+}
